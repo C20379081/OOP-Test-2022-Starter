@@ -24,7 +24,7 @@ public class Nematode {
             tr.getInt("length"),
             tr.getInt("limbs") == 1,
             tr.getString("gender"),
-            tr.getInt("limbs") == 1
+            tr.getInt("eyes") == 1
         );
         
     }
