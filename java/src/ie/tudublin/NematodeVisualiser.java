@@ -52,15 +52,22 @@ public class NematodeVisualiser extends PApplet
         for(TableRow row:table.rows())
         {
             Nematode n = new Nematode(row);
+			
             nematodevisualiser.add(n);
-			println(n);
         }
     }
 
 
 	public void draw()
 	{		  
+		//displaying the name from the file
+		textSize(30);
+		textAlign(CENTER);
+		fill(0,0,255);
+		text(nematodevisualiser.get(direction).getName(), width/2, height/10);
 
-	}
-	
+
+		int length = nematodevisualiser.get(direction).getLength();
+		
+}
 }
