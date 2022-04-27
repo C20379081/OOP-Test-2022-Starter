@@ -1,6 +1,7 @@
 package ie.tudublin;
 
 import processing.data.TableRow;
+import processing.core.PApplet;
 
 public class Nematode {
     private String name;
@@ -36,8 +37,6 @@ public class Nematode {
         this.gender = gender;
         this.eyes = eyes;
     }
-
-
 
 
     public String getName() {
@@ -80,5 +79,5 @@ public class Nematode {
         this.eyes = eyes;
     }
 
-    
+
 }
